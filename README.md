@@ -5,8 +5,8 @@ This is an oversimplified backend ecommerce project using Spring Boot & H2 in-me
 
 ## Features
 - Creates a database in H2 with a single entity named Product.
-- CRUD endpoints which are managed by a single controller class.
-- A search feature that looks for an occurence of a keyword in the name, brand, category and description columns from the Product table.
+- CRUD operations facilitated by API endpoints, managed by a single controller class.
+- A search feature that looks for an occurence of a keyword in the name, brand, category and description columns within the Product table.
 
 ## Dependencies
 
