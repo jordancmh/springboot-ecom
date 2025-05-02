@@ -17,6 +17,20 @@ This is an oversimplified backend ecommerce project using Spring Boot & H2 in-me
 - H2 database
 - Lombok
 
+## API Reference
+
+#### Product Controller (`/api`)
+
+| Method | URL      | Description                |
+| :----  | :------- | :------------------------- |
+| GET    | `/products` | Retrieve a list of all products |
+| GET    | `/product/{id}` | Retrieve a product by ID |
+| POST   | `/product` | Add a product and its image |
+| GET    | `/product/{productId}/image` | Retrieve a product's image using its ID |
+| PUT    | `/product/{productId}` | Update a product and its image |
+| DELETE | `/product/{productId}` | Delete a product by ID |
+| GET    | `/products/search` | Search for a product via `keyword` input parameter |
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
